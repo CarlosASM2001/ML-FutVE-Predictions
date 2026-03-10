@@ -16,6 +16,7 @@
     "away_avg_conceded_last5",
     "home_form_points",
     "away_form_points",
+    "ppg_diff",
     "home_elo",
     "away_elo",
     "elo_diff",
@@ -39,10 +40,12 @@
     "away_away_avg_goals",
     "home_rest_days",
     "away_rest_days",
+    "rest_days_diff",
     "home_matches_played",
     "away_matches_played",
     "home_goal_diff",
-    "away_goal_diff"
+    "away_goal_diff",
+    "goal_diff_diff"
   ],
   "target": "result",
   "labels": [
@@ -58,9 +61,9 @@
   ],
   "results": {
     "Baseline (always H)": 0.4345,
-    "Logistic Regression": 0.4345,
-    "Random Forest": 0.4429,
-    "CatBoost": 0.4485
+    "Logistic Regression": 0.4373,
+    "Random Forest": 0.4262,
+    "CatBoost": 0.4749
   },
   "min_matches_played": 5
 }
