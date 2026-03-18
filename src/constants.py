@@ -4,7 +4,8 @@ from pathlib import Path
 class Paths:
 
     DATA_DIR = Path().resolve().parent
-    FEATURES_CSV = DATA_DIR / "data" / "futve_consolidate_results.csv"
+    INPUT_CSV = DATA_DIR / "data" / "futve_consolidate_results.csv"
+    FEATURES_CSV = DATA_DIR / "data" / "futve_features.csv"
     MODEL_PATH = DATA_DIR / "models" / "catboost_model.cbm"
 
 
