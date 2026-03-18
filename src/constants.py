@@ -3,7 +3,7 @@ from pathlib import Path
 
 class Paths:
 
-    DATA_DIR = Path().resolve().parent
+    DATA_DIR = Path(__file__).resolve().parent.parent
     INPUT_CSV = DATA_DIR / "data" / "futve_consolidate_results.csv"
     FEATURES_CSV = DATA_DIR / "data" / "futve_features.csv"
     MODEL_PATH = DATA_DIR / "models" / "catboost_model.cbm"
