@@ -61,7 +61,7 @@ class MatchEngine:
         self.team_away_stats: dict[str, dict] = defaultdict(
             lambda: {"played": 0, "wins": 0, "goals": 0}
         )
-        self.matches_processed: 0
+        self.matches_processed = 0
 
 
     @property

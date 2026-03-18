@@ -31,7 +31,7 @@ def build_engine(df: pd.DataFrame) -> MatchEngine:
             home_score=row["home_score"],
             away_score=row["away_score"],
             result=row["result"],
-            match_dt=row["match_date_utc"],
+            matchdate=row["match_date_utc"],
         )
     return engine
 
